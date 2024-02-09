@@ -19,6 +19,13 @@ a {
     cursor: pointer;
 }
 
+.btn {
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: var(--color-scondary);
+    color: var(--color-primary);
+}
+
 /* Header */
 header {
     background-color: var(--color-header-bg);
