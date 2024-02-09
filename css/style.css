@@ -1,0 +1,13 @@
+/* custom propriets */
+:root {
+    --color-scondary: #ffffff;
+    --color-primary: #23272a;
+    --color-header-bg: #255ee9;
+    --color-section-bg: #f6f6f6;
+    --color-contrast: #aebbe7;
+}
+
+/* general */
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
