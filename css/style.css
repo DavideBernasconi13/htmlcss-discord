@@ -34,6 +34,14 @@ header {
     background-color: var(--color-section-bg);
 }
 
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+
 /* Footer */
 footer {
     background-color: var(--color-primary);
