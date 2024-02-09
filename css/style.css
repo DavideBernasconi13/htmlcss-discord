@@ -11,3 +11,19 @@
 body {
     font-family: 'Noto Sans', sans-serif;
 }
+
+/* Header */
+header {
+    background-color: var(--color-header-bg);
+}
+
+/* Main */
+.section-bg {
+    background-color: var(--color-section-bg);
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+}
