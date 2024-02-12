@@ -11,6 +11,7 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     color: var(--color-primary);
+    font-size: 1rem;
 }
 
 a {
@@ -19,11 +20,32 @@ a {
     cursor: pointer;
 }
 
+/* Font-size */
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+/* Button */
 .btn {
-    padding: 10px 15px;
+    display: inline-block;
+    padding: 10px 18px;
     border-radius: 25px;
     background-color: var(--color-scondary);
     color: var(--color-primary);
+}
+
+.btn-small {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
 /* Header */
@@ -36,6 +58,15 @@ header {
     background-image: url('../img/jumbo.png');
     background-size: cover;
     color: var(--color-scondary);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-small p {
+    font-size: 1.18rem;
+    line-height: 1.7;
 }
 
 /* Main */
@@ -57,6 +88,15 @@ footer {
     color: var(--color-scondary);
 }
 
+ul.social-links li {
+    display: inline-block;
+}
+
 .footer-bottom {
     border-top: 1px solid var(--color-contrast);
+}
+
+footer ul li:first-child {
+    color: var(--color-contrast);
+    font-weight: 700;
 }
