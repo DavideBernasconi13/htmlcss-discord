@@ -66,6 +66,15 @@ p {
     color: var(--color-scondary);
 }
 
+.btn:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:not(.btn-contrast):hover {
+    color: var(--color-contrast);
+}
+
 /* Header */
 header {
     background-color: var(--color-header-bg);
