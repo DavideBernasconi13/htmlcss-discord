@@ -4,7 +4,7 @@
     --color-primary: #23272a;
     --color-header-bg: #255ee9;
     --color-section-bg: #f6f6f6;
-    --color-contrast: #aebbe7;
+    --color-contrast: #7289DA;
 }
 
 /* general */
@@ -37,6 +37,10 @@ p {
     font-size: 1.25rem;
 }
 
+.right p {
+    line-height: 1.5;
+}
+
 /* Button */
 .btn {
     display: inline-block;
@@ -54,6 +58,11 @@ p {
 
 .btn-contrast {
     background-color: var(--color-contrast);
+    color: var(--color-scondary);
+}
+
+.btn-dark {
+    background-color: var(--color-primary);
     color: var(--color-scondary);
 }
 
