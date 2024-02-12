@@ -87,6 +87,9 @@ header {
     width: 40%;
 }
 
+/* Wawe */
+.wave {}
+
 /* Call to action */
 #call-to-action {
     background-image: url(../img/stars.svg);
