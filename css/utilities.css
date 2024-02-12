@@ -131,6 +131,14 @@ ul {
     padding: 50px;
 }
 
+.p-80 {
+    padding: 80px;
+}
+
+.p-100 {
+    padding: 100px;
+}
+
 .pt-10 {
     padding-top: 10px;
 }

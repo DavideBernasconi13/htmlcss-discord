@@ -48,6 +48,11 @@ p {
     font-weight: 500;
 }
 
+.btn-contrast {
+    background-color: var(--color-contrast);
+    color: var(--color-scondary);
+}
+
 /* Header */
 header {
     background-color: var(--color-header-bg);
@@ -80,6 +85,18 @@ header {
 
 .right {
     width: 40%;
+}
+
+/* Call to action */
+#call-to-action {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center 30%;
+}
+
+#call-to-action .container-small h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 /* Footer */
