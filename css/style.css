@@ -88,7 +88,15 @@ header {
 }
 
 /* Wawe */
-.wave {}
+.wave {
+    height: 120px;
+    background-image: Url(../img/wave.svg);
+    filter: opacity(0.04);
+}
+
+.wave-reverse {
+    transform: scaleY(-1);
+}
 
 /* Call to action */
 #call-to-action {
