@@ -20,6 +20,10 @@ a {
     cursor: pointer;
 }
 
+a:not(.btn):hover {
+    text-decoration: underline;
+}
+
 /* Font-size */
 h1 {
     font-size: 3rem;
