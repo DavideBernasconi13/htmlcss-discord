@@ -136,6 +136,7 @@ footer {
 
 ul.social-links {
     display: flex;
+    font-size: 1.3rem;
 }
 
 .social-links li {
@@ -151,8 +152,13 @@ ul.social-links {
     width: calc(100%/5);
 }
 
+.footer-info span:before {
+    content: '';
+    margin-left: 3px;
+}
+
 .footer-info img {
-    width: 25px;
+    width: 20px;
 }
 
 footer ul li:first-child {
