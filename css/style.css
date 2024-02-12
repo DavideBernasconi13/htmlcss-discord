@@ -26,15 +26,15 @@ a:not(.btn):hover {
 
 /* Font-size */
 h1 {
-    font-size: 3rem;
-}
-
-h2 {
     font-size: 3.5rem;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
 p {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
 }
 
 /* Button */
@@ -102,6 +102,11 @@ header {
     transform: scaleY(-1);
 }
 
+/* Tecnology
+#technology.container h2 {
+    font-size: 1.2rem;
+    color: red;
+} */
 /* Call to action */
 #call-to-action {
     background-image: url(../img/stars.svg);
