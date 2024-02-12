@@ -134,15 +134,33 @@ footer {
     color: var(--color-scondary);
 }
 
-ul.social-links li {
-    display: inline-block;
+ul.social-links {
+    display: flex;
+}
+
+.social-links li {
+    justify-content: space-between;
+    width: 100%;
 }
 
 .footer-bottom {
     border-top: 1px solid var(--color-contrast);
 }
 
+.footer-info {
+    width: calc(100%/5);
+}
+
+.footer-info img {
+    width: 25px;
+}
+
 footer ul li:first-child {
     color: var(--color-contrast);
     font-weight: 700;
+}
+
+footer h3 {
+    font-size: 2rem;
+    color: var(--color-contrast);
 }
