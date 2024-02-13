@@ -80,6 +80,45 @@ header {
     background-color: var(--color-header-bg);
 }
 
+/* Menu fixed */
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--color-header-bg);
+}
+
+/* Sub-menu dopdown */
+nav>ul li {
+    position: relative;
+}
+
+nav>ul li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    width: 220px;
+    background-color: var(--color-primary);
+    color: var(--color-section-bg);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.sub-menu li {
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--color-contrast);
+}
+
+.sub-menu li:last-child {
+    border-bottom: none;
+}
+
 .hero {
     min-height: 535px;
     background-image: url('../img/jumbo.png');
